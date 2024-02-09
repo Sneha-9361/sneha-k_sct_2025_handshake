@@ -1,0 +1,11 @@
+def handshakes(n):
+    return (n * (n - 1)) // 2
+
+
+num_test_cases = int(input())
+
+
+for _ in range(num_test_cases):
+    attendees = int(input())
+    result = handshakes(attendees)
+    print(result)
